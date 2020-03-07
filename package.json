@@ -1,0 +1,29 @@
+{
+  "name": "bigeminy",
+  "version": "0.0.1",
+  "description": "A demonstration of using power of PureScript and TypeScript together to handle front-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebrodmann/bigeminy.git"
+  },
+  "keywords": [
+    "PureScript",
+    "TypeScript",
+    "redux",
+    "react",
+    "FP",
+    "front-end",
+    "demo",
+    "seed"
+  ],
+  "author": "Mohammad Hasani <thebrodmann@protonmail.com>",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/thebrodmann/bigeminy/issues"
+  },
+  "homepage": "https://github.com/thebrodmann/bigeminy#readme"
+}
