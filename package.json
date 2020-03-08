@@ -4,7 +4,7 @@
   "description": "A demonstration of using power of PureScript and TypeScript together to handle front-end",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/index.html"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,18 @@
   "bugs": {
     "url": "https://github.com/thebrodmann/bigeminy/issues"
   },
-  "homepage": "https://github.com/thebrodmann/bigeminy#readme"
+  "homepage": "https://github.com/thebrodmann/bigeminy#readme",
+  "dependencies": {
+    "@types/react-dom": "^16.9.5",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.23",
+    "@types/react-redux": "^7.1.7",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.8.3"
+  }
 }
