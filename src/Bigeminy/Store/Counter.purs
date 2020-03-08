@@ -16,7 +16,7 @@ decrement :: Redux.Action Action
 decrement = Redux.mkAction Decrement
 
 reset :: Int -> Redux.Action Action
-reset x = Redux.mkAction $ Reset x
+reset = Redux.mkAction <<< Reset 
 
 initialState :: State
 initialState = 0
